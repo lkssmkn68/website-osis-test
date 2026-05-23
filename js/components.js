@@ -1,66 +1,62 @@
 /**
  * components.js
  * Injects shared navigation and footer into every page.
- * No more copy-pasting HTML across files.
  *
- * Usage: import './components.js' in any page script.
- * It auto-detects the active page from the current URL.
+ * Uses absolute URLs based on the detected site root so it works
+ * correctly on GitHub Pages (https://user.github.io/repo-name/),
+ * local dev servers, and any other host — no matter the repo name.
  */
-
-const NAV_LINKS = [
-    { href: 'about.html',    label: 'Tentang Kami' },
-    { href: 'proker.html',   label: 'Program Kerja' },
-    { href: 'struktur.html', label: 'Struktur' },
-    { href: 'articles.html', label: 'Artikel' },
-    { href: 'contacts.html', label: 'Contact' },
-];
 
 /**
- * Resolves the correct prefix for links based on current page depth.
- * Pages in /static/ → prefix = ''
- * Pages in /static/articles/ → prefix = '../'
- * index.html at root → prefix = 'static/'
+ * Detects the root URL of the site.
+ * - GitHub Pages: https://user.github.io/repo-name/  → root = origin/repo-name/
+ * - localhost:8000 with files at root                 → root = origin/
+ * - localhost:8000/subfolder/                         → root = origin/subfolder/
+ *
+ * The trick: index.html always lives at the repo root, which is the
+ * first path segment on GitHub Pages. We detect this by checking if
+ * the first path part contains a dot (meaning it's a file, not a folder).
  */
-function getPathPrefix() {
-    const path = window.location.pathname;
-    if (path.endsWith('index.html') || path === '/' || path.endsWith('/osis-site/')) {
-        return 'static/';
+function getSiteRoot() {
+    const { origin, pathname } = window.location;
+    const parts = pathname.split('/').filter(Boolean);
+
+    // True root (e.g. localhost with index.html at /)
+    if (parts.length === 0 || (parts[0] && parts[0].includes('.'))) {
+        return origin + '/';
     }
-    // Check if we're two levels deep (e.g. /static/articles/xxx.html)
-    const parts = path.split('/').filter(Boolean);
-    const depth = parts.length;
-    if (depth >= 3 || path.includes('/articles/')) {
-        return '../';
-    }
-    return '';
+
+    // GitHub Pages or subfolder: first segment is the repo/folder name
+    return origin + '/' + parts[0] + '/';
 }
 
-function getHomeHref() {
-    const path = window.location.pathname;
-    if (path.endsWith('index.html') || path === '/' || path.endsWith('/osis-site/')) return 'index.html';
-    if (path.includes('/articles/')) return '../../index.html';
-    return '../index.html';
-}
+const ROOT = getSiteRoot();
+
+const NAV_LINKS = [
+    { href: 'static/about.html',    label: 'Tentang Kami' },
+    { href: 'static/proker.html',   label: 'Program Kerja' },
+    { href: 'static/struktur.html', label: 'Struktur' },
+    { href: 'static/articles.html', label: 'Artikel' },
+    { href: 'static/contacts.html', label: 'Contact' },
+];
 
 function getCurrentPage() {
-    const path = window.location.pathname;
-    const filename = path.split('/').pop();
-    return filename || 'index.html';
+    return window.location.pathname.split('/').pop() || 'index.html';
 }
 
 export function renderNav() {
-    const prefix = getPathPrefix();
     const current = getCurrentPage();
 
     const linksHtml = NAV_LINKS.map(link => {
-        const isActive = current === link.href ? 'active' : '';
-        return `<a href="${prefix}${link.href}" class="nav-btn ${isActive}">${link.label}</a>`;
+        const pageFile = link.href.split('/').pop(); // e.g. "about.html"
+        const isActive = current === pageFile ? 'active' : '';
+        return `<a href="${ROOT}${link.href}" class="nav-btn ${isActive}">${link.label}</a>`;
     }).join('');
 
     return `
     <nav class="topbar">
         <div class="logo">
-            <a href="${getHomeHref()}">OSIS SMKN 68 Jakarta</a>
+            <a href="${ROOT}index.html">OSIS SMKN 68 Jakarta</a>
         </div>
         <div class="nav-links">
             ${linksHtml}
@@ -96,11 +92,9 @@ export function renderFooter() {
 }
 
 export function injectComponents() {
-    // Nav
     const navPlaceholder = document.getElementById('nav-placeholder');
     if (navPlaceholder) navPlaceholder.outerHTML = renderNav();
 
-    // Footer
     const footerPlaceholder = document.getElementById('footer-placeholder');
     if (footerPlaceholder) footerPlaceholder.outerHTML = renderFooter();
 }

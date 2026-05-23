@@ -9,12 +9,21 @@
 
 import { parseFrontmatter, parseMarkdown } from './md-parser.js';
 
-/** Resolve path to content/ folder from any page depth */
+/** Site root — same logic as components.js */
+function getSiteRoot() {
+    const { origin, pathname } = window.location;
+    const parts = pathname.split('/').filter(Boolean);
+    if (parts.length === 0 || (parts[0] && parts[0].includes('.'))) {
+        return origin + '/';
+    }
+    return origin + '/' + parts[0] + '/';
+}
+
+const ROOT = getSiteRoot();
+
+/** Resolve path to content/ folder using absolute ROOT */
 function contentPath(rel) {
-    const path = window.location.pathname;
-    if (path.includes('/articles/')) return `../../content/${rel}`;
-    if (path.includes('/static/'))   return `../content/${rel}`;
-    return `content/${rel}`;
+    return ROOT + 'content/' + rel;
 }
 
 /** Format ISO date to human-readable Indonesian */
@@ -25,12 +34,9 @@ function formatDate(isoDate) {
     return `${d} ${months[m - 1]} ${y}`;
 }
 
-/** Build URL to a single article page from any depth */
+/** Build URL to a single article page using absolute ROOT */
 function articleUrl(id) {
-    const path = window.location.pathname;
-    if (path.includes('/static/articles/')) return `${id}.html`;
-    if (path.includes('/static/'))          return `articles/${id}.html`;
-    return `static/articles/${id}.html`;
+    return ROOT + 'static/articles/' + id + '.html';
 }
 
 /** Load the articles manifest JSON */

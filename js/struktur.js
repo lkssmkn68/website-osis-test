@@ -4,10 +4,17 @@
  * Data is fully separated from logic — edit osis-data.json to update org structure.
  */
 
+function getSiteRoot() {
+    const { origin, pathname } = window.location;
+    const parts = pathname.split('/').filter(Boolean);
+    if (parts.length === 0 || (parts[0] && parts[0].includes('.'))) {
+        return origin + '/';
+    }
+    return origin + '/' + parts[0] + '/';
+}
+
 function dataPath() {
-    const path = window.location.pathname;
-    if (path.includes('/static/')) return '../content/osis-data.json';
-    return 'content/osis-data.json';
+    return getSiteRoot() + 'content/osis-data.json';
 }
 
 function node(nama, jabatan, level = 'main') {
