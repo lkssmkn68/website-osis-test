@@ -1,0 +1,24 @@
+[
+  {
+    "id": "artikel-fitur-baru",
+    "file": "content/articles/artikel-fitur-baru.md",
+    "title": "Peluncuran Fitur Terbaru Website Kami",
+    "excerpt": "Kami baru saja memperbarui sistem navigasi dan menambahkan tampilan visual yang lebih interaktif.",
+    "category": "teknologi",
+    "author": "Ikram Rahmani",
+    "date": "2026-05-22",
+    "cover": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&q=80",
+    "featured": true
+  },
+  {
+    "id": "belajar-javascript",
+    "file": "content/articles/belajar-javascript.md",
+    "title": "Tips Belajar Vanilla Javascript Bagi Pemula",
+    "excerpt": "Mengenal dasar DOM manipulation sangatlah penting sebelum berpindah menggunakan framework modern.",
+    "category": "edukasi",
+    "author": "Tim OSIS",
+    "date": "2026-05-20",
+    "cover": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80",
+    "featured": false
+  }
+]

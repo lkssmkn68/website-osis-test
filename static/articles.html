@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artikel & Berita - OSIS SMKN 68 Jakarta</title>
+    <link rel="icon" href="../img/icon.png">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <div id="nav-placeholder"></div>
+
+    <header class="subpage-banner">
+        <h1>Artikel & Berita</h1>
+        <p>Jelajahi bacaan edukasi, info rilis fitur terbaru, dan dokumentasi kegiatan kami.</p>
+    </header>
+
+    <main class="news-portal-layout">
+        <div class="news-main-feed">
+
+            <!-- Featured articles injected here by articles.js -->
+            <div id="featured-article-container"></div>
+
+            <h2 class="feed-subtitle" id="feed-title-text">Berita Terkini</h2>
+
+            <!-- Article cards injected here by articles.js -->
+            <div class="news-grid" id="articles-grid-container">
+                <p style="color: var(--text-muted)">Memuat artikel...</p>
+            </div>
+
+        </div>
+
+        <aside class="news-sidebar">
+            <div class="sidebar-widget">
+                <h3>Kategori Berita</h3>
+                <ul class="widget-list" id="category-list">
+                    <!-- Injected by articles.js with correct counts -->
+                    <li><a href="#" class="category-btn active" data-filter="all">Semua Kategori</a></li>
+                </ul>
+            </div>
+        </aside>
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script type="module" src="../js/app.js"></script>
+</body>
+</html>

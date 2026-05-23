@@ -1,0 +1,61 @@
+{
+  "pimpinanAtas": [
+    { "nama": "Marlinah M.Pd", "jabatan": "Kepala Sekolah" },
+    { "nama": "Etty Soelistyowati Wulandari", "jabatan": "Wakil Kepala Bidang Kesiswaan" },
+    { "nama": "Muhammad Bintang Nugraha, S.Pd", "jabatan": "Pembina OSIS" },
+    { "nama": "Wahid Ramdani", "jabatan": "Ketua OSIS" },
+    { "nama": "Maqdis G. Al Adzani", "jabatan": "Wakil Ketua OSIS" }
+  ],
+  "sekretaris": [
+    { "nama": "Dascha Anandita", "jabatan": "Sekretaris I" },
+    { "nama": "Azzaleya May Faeza", "jabatan": "Sekretaris II" }
+  ],
+  "bendahara": [
+    { "nama": "Federikho Prayoga", "jabatan": "Bendahara I" },
+    { "nama": "Nauval Abiyu S.", "jabatan": "Bendahara II" }
+  ],
+  "koordinator": { "nama": "Anita Solehah", "jabatan": "Koordinator Sekbid" },
+  "sekbid": [
+    {
+      "nama": "Kerohanian",
+      "ketua": "Fajar Faiz Basri",
+      "departemen": [
+        { "nama": "Dept. Keagamaan", "anggota": ["Christian Timbul S.", "M. Adi Yuna"] },
+        { "nama": "Dept. Kerukunan & Toleransi", "anggota": ["Dinar Rifa A."] }
+      ]
+    },
+    {
+      "nama": "Kedisiplinan",
+      "ketua": "Fearbly A. Hafidzh",
+      "departemen": [
+        { "nama": "Dept. Tata Tertib", "anggota": ["Gautama A. Setyandi"] },
+        { "nama": "Dept. Budi Pekerti", "anggota": ["Dimas Maulana", "Jenyka Suliestia"] }
+      ]
+    },
+    {
+      "nama": "Dana Usaha",
+      "ketua": "Fakhri Ghozi",
+      "departemen": [
+        { "nama": "Dept. Sponsorship", "anggota": ["Rasya Eka Putra"] },
+        { "nama": "Dept. Dana Usaha", "anggota": ["Achmad Kafi", "Satria P Prakasa"] }
+      ]
+    },
+    {
+      "nama": "Humas IT",
+      "ketua": "Mutia Dewi",
+      "departemen": [
+        { "nama": "Dept. Humas", "anggota": ["Samuel Tamba"] },
+        { "nama": "Dept. IT", "anggota": ["Ikram Rahmani"] }
+      ]
+    },
+    {
+      "nama": "Jasmani & Kreativitas",
+      "ketua": "Hilal Jamaludin",
+      "departemen": [
+        { "nama": "Dept. Kreativitas", "anggota": ["Anita Yuliasari", "Maylaffayzza S."] },
+        { "nama": "Dept. Jasmani", "anggota": ["Abbiel Azka A.", "Ahmad Azri"] },
+        { "nama": "Dept. Sastra Bahasa", "anggota": ["Elisa Ramadhani", "Nadya Ablyah Dwi N"] }
+      ]
+    }
+  ]
+}
