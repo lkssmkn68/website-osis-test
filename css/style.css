@@ -210,13 +210,15 @@ body {
 }
 
 .hero-logo {
-    width: 90px;
-    height: 90px;
+    position: absolute;
+    right: 60px; /* Pushes the logo to the right edge */
+    top: 50%; /* Pushes it down to the middle */
+    transform: translateY(-50%); /* Ensures it is perfectly centered vertically */
+    width: 120px; /* You can adjust this size */
+    height: 120px;
     object-fit: contain;
-    margin-bottom: 20px;
     filter: drop-shadow(0 2px 8px rgba(0,0,0,0.4));
-    align-items: flex-end;
-    padding: 0 60px 0 0;
+    z-index: 4; /* Keeps it above the slideshow overlay */
 }
 
 .hero-title { font-size: 52px; font-weight: 800; margin-bottom: 15px; line-height: 1.15; }
