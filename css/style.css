@@ -215,6 +215,8 @@ body {
     object-fit: contain;
     margin-bottom: 20px;
     filter: drop-shadow(0 2px 8px rgba(0,0,0,0.4));
+    align-items: flex-end;
+    padding: 0 60px 0 0;
 }
 
 .hero-title { font-size: 52px; font-weight: 800; margin-bottom: 15px; line-height: 1.15; }
