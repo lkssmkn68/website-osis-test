@@ -2,23 +2,33 @@
   {
     "id": "artikel-fitur-baru",
     "file": "content/articles/artikel-fitur-baru.md",
-    "title": "Peluncuran Fitur Terbaru Website Kami",
-    "excerpt": "Kami baru saja memperbarui sistem navigasi dan menambahkan tampilan visual yang lebih interaktif.",
     "category": "teknologi",
-    "author": "Ikram Rahmani",
+    "featured": true,
+    "cover": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80",
+    "excerpt": "Kami baru saja memperbarui sistem navigasi dan menambahkan tampilan visual yang lebih interaktif.",
     "date": "2026-05-22",
-    "cover": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&q=80",
-    "featured": true
+    "title": "Peluncuran Fitur Terbaru Website Kami",
+    "author": "Ikram Rahmani",
+    "date_display": "22 Mei 2026",
+    "readtime": "4 menit",
+    "cover_caption": "Pembaruan antarmuka untuk pengalaman pengguna yang lebih mulus dan responsif.",
+    "category_display": "Teknologi & Fitur",
+    "body": "Selamat datang di platform digital kami yang telah diperbarui! Kami dengan bangga mengumumkan peluncuran serangkaian fitur interaktif baru yang dirancang khusus untuk meningkatkan kenyamanan akses informasi Anda.\n\n## Apa saja yang Baru di Pembaruan Ini?\n\nSetelah mengumpulkan berbagai masukan dari anggota komunitas, tim pengembang kami berfokus pada kecepatan pemuatan halaman dan kemudahan navigasi, khususnya bagi pengguna perangkat seluler (*mobile-first*).\n\n![Kode Pemrograman|Penulisan ulang sistem menggunakan struktur HTML statis dan Vanilla JS.](https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80)\n\n### Rincian Perubahan Inti\n\n- **Multi-Page Architecture:** Pergantian dari sistem satu halaman ke multi-halaman penuh yang cepat. URL kini jauh lebih rapi.\n- **Sistem Artikel Markdown:** Siapapun kini bisa menulis artikel cukup dengan mengetik teks biasa — tidak perlu coding sama sekali.\n- **Bagan Organisasi Fleksibel:** Desain responsif bertingkat yang otomatis menyesuaikan tata letak jika dibuka dari ponsel pintar.\n\n> \"Inovasi berkelanjutan adalah komitmen utama kami dalam menghadirkan informasi yang transparan, mudah dijangkau, dan aman bagi seluruh anggota.\"\n\nKami sangat menantikan masukan dari Anda! Jika Anda memiliki saran tambahan atau mengalami kendala teknis saat mengakses portal, jangan ragu untuk menghubungi tim dukungan kami melalui halaman menu kontak resmi."
   },
   {
     "id": "belajar-javascript",
     "file": "content/articles/belajar-javascript.md",
-    "title": "Tips Belajar Vanilla Javascript Bagi Pemula",
-    "excerpt": "Mengenal dasar DOM manipulation sangatlah penting sebelum berpindah menggunakan framework modern.",
     "category": "edukasi",
-    "author": "Tim OSIS",
+    "featured": false,
+    "cover": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=80",
+    "excerpt": "Mengenal dasar DOM manipulation sangatlah penting sebelum berpindah menggunakan framework modern.",
     "date": "2026-05-20",
-    "cover": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80",
-    "featured": false
+    "title": "Tips Belajar Vanilla Javascript Bagi Pemula",
+    "author": "Tim OSIS",
+    "date_display": "20 Mei 2026",
+    "readtime": "5 menit",
+    "cover_caption": "Belajar bersama adalah kunci sukses memahami pemrograman web.",
+    "category_display": "Edukasi",
+    "body": "Banyak yang langsung lompat ke React atau Vue tanpa memahami dasar-dasarnya. Padahal, memahami Vanilla JS adalah fondasi terkuat untuk menjadi web developer yang handal.\n\n## Mengapa Vanilla JS?\n\nVanilla JS adalah JavaScript murni — tanpa library, tanpa framework. Belajar dari dasar membuat kamu benar-benar paham bagaimana browser bekerja, bukan cuma hafal sintaks framework.\n\n## Langkah Belajar yang Tepat\n\n### 1. Kuasai DOM Manipulation\n\nDOM (Document Object Model) adalah cara JavaScript berkomunikasi dengan HTML. Mulai dari sini:\n\n- `document.getElementById()` — ambil elemen berdasarkan ID\n- `element.addEventListener()` — dengarkan event seperti klik dan ketikan\n- `element.innerHTML` — ubah konten HTML secara dinamis\n\n### 2. Pelajari Fetch API\n\nSetelah DOM, pelajari cara mengambil data dari internet menggunakan `fetch()`. Ini adalah skill paling penting di web modern.\n\n### 3. Latihan Membuat Project Kecil\n\nTeori tanpa praktik tidak akan kemana-mana. Coba buat:\n\n- To-do list sederhana\n- Kalkulator\n- Filter gambar/artikel seperti di website ini!\n\n> \"Seorang programmer hebat tidak lahir dari membaca buku, tapi dari menulis kode setiap hari.\"\n\nSemangat terus belajarnya! OSIS SMKN 68 selalu mendukung perkembangan digital literacy anggotanya."
   }
 ]

@@ -7,7 +7,7 @@
  *   - Category filtering with correct counts
  */
 
-import { parseFrontmatter, parseMarkdown } from './md-parser.js';
+import { parseMarkdown } from './md-parser.js';
 
 /** Site root — same logic as components.js */
 function getSiteRoot() {
@@ -182,39 +182,35 @@ export async function initArticlePage() {
 
         if (!meta) throw new Error(`Article "${articleId}" not found in manifest`);
 
-        // Load the .md file
-        const mdRes = await fetch(contentPath(meta.file.replace('content/', '')));
-        if (!mdRes.ok) throw new Error(`Could not load ${meta.file}`);
-        const raw = await mdRes.text();
-
-        const { fm, body } = parseFrontmatter(raw);
-        const bodyHtml = parseMarkdown(body);
+        // Article body is embedded directly in the manifest — no extra fetch needed.
+        // This avoids GitHub Pages blocking .md file requests.
+        const bodyHtml = parseMarkdown(meta.body || '');
 
         // Update page title
-        document.title = `${fm.title || meta.title} — OSIS SMKN 68 Jakarta`;
+        document.title = `${meta.title} — OSIS SMKN 68 Jakarta`;
 
         // Render article
         container.innerHTML = `
             <div class="reading-content-wrapper">
-                <a href="../articles.html" class="back-to-feed-link">← Kembali ke Artikel</a>
+                <a href="${ROOT}static/articles.html" class="back-to-feed-link">← Kembali ke Artikel</a>
                 <article>
                     <header class="article-header">
-                        <span class="article-category">${fm.category || meta.category}</span>
-                        <h1>${fm.title || meta.title}</h1>
+                        <span class="article-category">${meta.category_display || meta.category}</span>
+                        <h1>${meta.title}</h1>
                         <div class="article-meta">
-                            <img src="https://ui-avatars.com/api/?name=${encodeURIComponent(fm.author || meta.author)}&background=007bff&color=fff"
-                                 alt="${fm.author || meta.author}" class="author-avatar">
+                            <img src="https://ui-avatars.com/api/?name=${encodeURIComponent(meta.author)}&background=007bff&color=fff"
+                                 alt="${meta.author}" class="author-avatar">
                             <div class="meta-details">
-                                <span class="author-name">Ditulis oleh ${fm.author || meta.author}</span>
-                                <span class="publish-date">${fm.date || formatDate(meta.date)}${fm.readtime ? ` • Waktu baca: ${fm.readtime}` : ''}</span>
+                                <span class="author-name">Ditulis oleh ${meta.author}</span>
+                                <span class="publish-date">${meta.date_display || formatDate(meta.date)}${meta.readtime ? ` • Waktu baca: ${meta.readtime}` : ''}</span>
                             </div>
                         </div>
                     </header>
 
-                    ${fm.cover ? `
+                    ${meta.cover ? `
                     <figure class="article-featured-image">
-                        <img src="${fm.cover}" alt="${fm.title || meta.title}" loading="lazy">
-                        ${fm.cover_caption ? `<figcaption>${fm.cover_caption}</figcaption>` : ''}
+                        <img src="${meta.cover}" alt="${meta.title}" loading="lazy">
+                        ${meta.cover_caption ? `<figcaption>${meta.cover_caption}</figcaption>` : ''}
                     </figure>` : ''}
 
                     <div class="article-content">
