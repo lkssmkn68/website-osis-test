@@ -1,32 +1,5 @@
 [
     {
-      "id": "bph",
-      "nama": "Badan Pengurus Harian",
-      "proker": [
-        {
-          "judul": "Seminar Inspiratif OSIS Per Sekbid",
-          "deskripsi": "Mengadakan seminar atau sharing session secara bergiliran untuk setiap seksi bidang (sekbid) OSIS serta menanamkan nilai budi pekerti melalui kegiatan harian.",
-          "periode": "Berkelanjutan",
-          "status": "Aktif",
-          "status_class": "status-running"
-        },
-        {
-          "judul": "Kunjungan antar Sekolah OSIS",
-          "deskripsi": "Melakukan kunjugan ke sekolah lain dan berkomunikasi dengan anggota OSIS dari sekolah yang dikunjungi untuk berbagi aspirasi satu golongan OSIS",
-          "periode": "Berkelanjutan",
-          "status": "Aktif",
-          "status_class": "status-running"
-        },
-        {
-          "judul": "Solve It!",
-          "deskripsi": "Mengadakan diskusi mingguan tiap divisi OSIS membuat solusi kecil terhadap masalah di bidangnya masing-masing. Misalnya, divisi yang merasa programnya belum berjalan maksimal dan hampir mendekati programnya. Dapat mengadakan diskusi internal untuk mencari tahu penyebab dan merancang langkah yang realistis",
-          "periode": "Unggulan",
-          "status": "Aktif",
-          "status_class": "status-running"
-        }
-      ]
-    },
-    {
       "id": "humas-it",
       "nama": "Seksi Bidang Humas IT",
       "proker": [
