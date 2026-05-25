@@ -76,6 +76,7 @@ export function renderFooter() {
                 <h4>Kontak</h4>
                 <p>Email: osissmkn68jakarta@gmail.com</p>
                 <p>Telepon: +62 896-1672-7118 (Mutia)</p>
+                <p>Telepon: +62 823-1151-1050 (Samuel)</p>
                 <p>Jam Kerja: Senin–Jumat, 09.00–17.00 WIB</p>
             </div>
             <div class="footer-section socials">
