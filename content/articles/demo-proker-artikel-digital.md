@@ -5,7 +5,7 @@ author: Ikram Rahmani
 date: 25 Mei 2026
 date_iso: 2026-05-25
 excerpt: Ini adalah cara baru kita untuk memberikan informasi dan transparansi serta membentuk portofolio yang baik untuk organisasi
-cover: https://github.com/lkssmkn68/website-osis-test/blob/main/img/covers-demo-proker-artikel-digital.png?raw=true
+cover: https://github.com/lkssmkn68/website-osis-test/blob/main/img/covers/demo-proker-artikel-digital.png?raw=true
 featured: True
 ---
 
