@@ -4,39 +4,28 @@
       "nama": "Badan Pengurus Harian",
       "proker": [
         {
-          "judul": "Patroli Tata Tertib & Budi Pekerti",
-          "deskripsi": "Memantau dan mendampingi pelaksanaan tata tertib sekolah serta menanamkan nilai budi pekerti melalui kegiatan harian.",
+          "judul": "Seminar Inspiratif OSIS Per Sekbid",
+          "deskripsi": "Mengadakan seminar atau sharing session secara bergiliran untuk setiap seksi bidang (sekbid) OSIS serta menanamkan nilai budi pekerti melalui kegiatan harian.",
           "periode": "Berkelanjutan",
           "status": "Aktif",
           "status_class": "status-running"
         },
         {
-          "judul": "Piket Gerbang dengan Sistem 3S (Senyum, Salam dan Sapa)",
-          "deskripsi": "Melakukan pembiasaan pagi dengan (salam, senyum dan sapa).",
+          "judul": "Kunjungan antar Sekolah OSIS",
+          "deskripsi": "Melakukan kunjugan ke sekolah lain dan berkomunikasi dengan anggota OSIS dari sekolah yang dikunjungi untuk berbagi aspirasi satu golongan OSIS",
           "periode": "Berkelanjutan",
           "status": "Aktif",
           "status_class": "status-running"
         },
         {
-          "judul": "Pengecekan Ruang Kelas sebelum Upacara/Apel Dimulai",
-          "deskripsi": "Mengecek ruang kelas/toilet guna memperhatikan tidak adanya siswa yang tidak mengikuti upacara/apel.",
+          "judul": "Solve It!",
+          "deskripsi": "Mengadakan diskusi mingguan tiap divisi OSIS membuat solusi kecil terhadap masalah di bidangnya masing-masing. Misalnya, divisi yang merasa programnya belum berjalan maksimal dan hampir mendekati programnya. Dapat mengadakan diskusi internal untuk mencari tahu penyebab dan merancang langkah yang realistis",
           "periode": "Berkelanjutan",
           "status": "Aktif",
           "status_class": "status-running"
         },
         {
-          "judul": "Pengecekan Kebersihan Kelas Setiap Pulang Sekolah",
-          "deskripsi": "Menertibkan kebersihan tiap kelas SMKN 68 Jakarta dengan inspeksi terhadap setiap kelas.",
-          "periode": "Berkelanjutan",
-          "status": "Aktif",
-          "status_class": "status-running"
-        },
-        {
-          "judul": "SEKAR (Seminar Karakter Siswa)",
-          "deskripsi": "Sekbid Kedisiplinan – Kolaborasi dengan Guru, Kerohanian, BK dan Kesiswaan.",
-          "periode": "Berkelanjutan",
-          "status": "Aktif",
-          "status_class": "status-running"
+
         }
       ]
     },
