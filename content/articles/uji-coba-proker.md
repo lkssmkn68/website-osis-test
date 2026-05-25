@@ -5,7 +5,7 @@ author: Nama Kamu
 date: 25 Mei 2026
 date_iso: 2026-05-25
 excerpt: Kalimat singkat preview artikel.
-cover: https://link-gambar.jpg
+cover: ../../img/covers/news1.jpg
 featured: True
 ---
 
