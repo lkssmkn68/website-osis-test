@@ -1,5 +1,32 @@
 [
     {
+        "id": "humas-it",
+        "nama": "Seksi Bidang Humas IT",
+        "proker": [
+          {
+            "judul": "Pembuatan & Pengelolaan Media Sosial OSIS",
+            "deskripsi": "Mengelola akun Instagram, TikTok, dan YouTube OSIS SMKN 68 Jakarta agar tetap aktif dan informatif.",
+            "periode": "Berkelanjutan",
+            "status": "Aktif",
+            "status_class": "status-running"
+          },
+          {
+            "judul": "Website Resmi OSIS SMKN 68 Jakarta",
+            "deskripsi": "Membangun dan memelihara website resmi OSIS sebagai pusat informasi digital sekolah.",
+            "periode": "Berkelanjutan",
+            "status": "Aktif",
+            "status_class": "status-running"
+          },
+          {
+            "judul": "Dokumentasi Kegiatan",
+            "deskripsi": "Mendokumentasikan setiap kegiatan OSIS dalam bentuk foto dan video untuk arsip dan publikasi.",
+            "periode": "Berkelanjutan",
+            "status": "Aktif",
+            "status_class": "status-running"
+          }
+        ]
+    },
+    {
       "id": "humas-it",
       "nama": "Seksi Bidang Humas IT",
       "proker": [
