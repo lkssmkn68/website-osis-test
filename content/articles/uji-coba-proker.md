@@ -1,12 +1,15 @@
 ---
-title: Tips Belajar Vanilla Javascript Bagi Pemula
-category: Edukasi
-author: Tim OSIS
-date: 20 Mei 2026
-readtime: 5 menit
-cover: https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=80
-cover_caption: Belajar bersama adalah kunci sukses memahami pemrograman web.
+title: Judul Artikel
+category: Teknologi
+author: Nama Kamu
+date: 25 Mei 2026
+date_iso: 2026-05-25
+excerpt: Kalimat singkat preview artikel.
+cover: https://link-gambar.jpg
+featured: True
 ---
+
+[UJI COBA]Selamat datang di platform digital kami yang telah diperbarui! Kami dengan bangga mengumumkan peluncuran serangkaian fitur interaktif baru yang dirancang khusus untuk meningkatkan kenyamanan akses informasi Anda.
 
 Banyak yang langsung lompat ke React atau Vue tanpa memahami dasar-dasarnya. Padahal, memahami Vanilla JS adalah fondasi terkuat untuk menjadi web developer yang handal.
 
