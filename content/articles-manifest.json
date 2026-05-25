@@ -1,18 +1,18 @@
 [
   {
-    "id": "uji-coba-proker",
-    "file": "content/articles/uji-coba-proker.md",
-    "title": "Judul Artikel",
-    "author": "Nama Kamu",
+    "id": "demo-proker-artikel-digital",
+    "file": "content/articles/demo-proker-artikel-digital.md",
+    "title": "Demo Program Kerja Artikel Digital",
+    "author": "Ikram Rahmani",
     "date": "2026-05-25",
     "date_display": "25 Mei 2026",
     "readtime": "1 menit",
-    "cover": "https://github.com/lkssmkn68/website-osis-test/blob/main/img/covers/news1.jpg?raw=true",
+    "cover": "https://github.com/lkssmkn68/website-osis-test/blob/main/img/covers-demo-proker-artikel-digital.png?raw=true",
     "cover_caption": "",
-    "category": "teknologi",
-    "category_display": "Teknologi",
-    "excerpt": "Kalimat singkat preview artikel.",
+    "category": "edukasi",
+    "category_display": "Edukasi",
+    "excerpt": "Ini adalah cara baru kita untuk memberikan informasi dan transparansi serta membentuk portofolio yang baik untuk organisasi",
     "featured": true,
-    "body": "[UJI COBA]Selamat datang di platform digital kami yang telah diperbarui! Kami dengan bangga mengumumkan peluncuran serangkaian fitur interaktif baru yang dirancang khusus untuk meningkatkan kenyamanan akses informasi Anda.\n\nBanyak yang langsung lompat ke React atau Vue tanpa memahami dasar-dasarnya. Padahal, memahami Vanilla JS adalah fondasi terkuat untuk menjadi web developer yang handal.\n\n## Mengapa Vanilla JS?\n\nVanilla JS adalah JavaScript murni — tanpa library, tanpa framework. Belajar dari dasar membuat kamu benar-benar paham bagaimana browser bekerja, bukan cuma hafal sintaks framework.\n\n## Langkah Belajar yang Tepat\n\n### 1. Kuasai DOM Manipulation\n\nDOM (Document Object Model) adalah cara JavaScript berkomunikasi dengan HTML. Mulai dari sini:\n\n- `document.getElementById()` — ambil elemen berdasarkan ID\n- `element.addEventListener()` — dengarkan event seperti klik dan ketikan\n- `element.innerHTML` — ubah konten HTML secara dinamis\n\n### 2. Pelajari Fetch API\n\nSetelah DOM, pelajari cara mengambil data dari internet menggunakan `fetch()`. Ini adalah skill paling penting di web modern.\n\n### 3. Latihan Membuat Project Kecil\n\nTeori tanpa praktik tidak akan kemana-mana. Coba buat:\n\n- To-do list sederhana\n- Kalkulator\n- Filter gambar/artikel seperti di website ini!\n\n> \"Seorang programmer hebat tidak lahir dari membaca buku, tapi dari menulis kode setiap hari.\"\n\nSemangat terus belajarnya! OSIS SMKN 68 selalu mendukung perkembangan digital literacy anggotanya."
+    "body": "Selamat datang di platform digital kami yang baru saja kami buat! Kami dengan bangga mengumumkan peluncuran serangkaian fitur interaktif baru yang dirancang khusus untuk meningkatkan kenyamanan akses informasi Anda.\n\n## Untuk apa adanya sebuah website?\n\nKami mengharapkan dengan adanya website ini, organisasi OSIS dapat membentuk portofolio yang baik untuk kedepannya dan membentuk habit literasi digital yang baik. Kami juga ingin meningkatkan daya literasi siswa SMKN 68 Jakarta, dengan adanya artikel digital seperti ini kami timbulnya minat baca informasi untuk murid SMKN 68 Jakarta\n\n## Lalu, Mengapa harus digital?\n![Manusia Gua](https://github.com/lkssmkn68/website-osis-test/blob/main/img/assets/img1.jpeg?raw=true)\nDi zaman serba canggih ini tidak memungkinkan untuk kita jika harus selalu menjadi manusia gua dan tidak mau update perkembangan zaman. Dengan kita mendigitalisasikan sarana informasi kita, secara tidak langsung kita telah berpartisipasi akan perkembangan zaman yang sekarang sangat cepat. Ini adalah salah satu tindakan kita untuk bisa melatih kemampuan siswa siswa untuk bisa terus mengikuti perkembangan zaman.\n\n> Tetap lah memiliki rasa penasaran karena kita adalah manusia!"
   }
 ]
