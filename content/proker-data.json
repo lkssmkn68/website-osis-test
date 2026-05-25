@@ -1,0 +1,248 @@
+[
+    {
+      "id": "bph",
+      "nama": "Badan Pengurus Harian",
+      "proker": [
+        {
+          "judul": "Patroli Tata Tertib & Budi Pekerti",
+          "deskripsi": "Memantau dan mendampingi pelaksanaan tata tertib sekolah serta menanamkan nilai budi pekerti melalui kegiatan harian.",
+          "periode": "Berkelanjutan",
+          "status": "Aktif",
+          "status_class": "status-running"
+        },
+        {
+          "judul": "Piket Gerbang dengan Sistem 3S (Senyum, Salam dan Sapa)",
+          "deskripsi": "Melakukan pembiasaan pagi dengan (salam, senyum dan sapa).",
+          "periode": "Berkelanjutan",
+          "status": "Aktif",
+          "status_class": "status-running"
+        },
+        {
+          "judul": "Pengecekan Ruang Kelas sebelum Upacara/Apel Dimulai",
+          "deskripsi": "Mengecek ruang kelas/toilet guna memperhatikan tidak adanya siswa yang tidak mengikuti upacara/apel.",
+          "periode": "Berkelanjutan",
+          "status": "Aktif",
+          "status_class": "status-running"
+        },
+        {
+          "judul": "Pengecekan Kebersihan Kelas Setiap Pulang Sekolah",
+          "deskripsi": "Menertibkan kebersihan tiap kelas SMKN 68 Jakarta dengan inspeksi terhadap setiap kelas.",
+          "periode": "Berkelanjutan",
+          "status": "Aktif",
+          "status_class": "status-running"
+        },
+        {
+          "judul": "SEKAR (Seminar Karakter Siswa)",
+          "deskripsi": "Sekbid Kedisiplinan – Kolaborasi dengan Guru, Kerohanian, BK dan Kesiswaan.",
+          "periode": "Berkelanjutan",
+          "status": "Aktif",
+          "status_class": "status-running"
+        }
+      ]
+    },
+    {
+      "id": "humas-it",
+      "nama": "Seksi Bidang Humas IT",
+      "proker": [
+        {
+          "judul": "Pembuatan & Pengelolaan Media Sosial OSIS",
+          "deskripsi": "Mengelola akun Instagram, TikTok, dan YouTube OSIS SMKN 68 Jakarta agar tetap aktif dan informatif.",
+          "periode": "Berkelanjutan",
+          "status": "Aktif",
+          "status_class": "status-running"
+        },
+        {
+          "judul": "Website Resmi OSIS SMKN 68 Jakarta",
+          "deskripsi": "Membangun dan memelihara website resmi OSIS sebagai pusat informasi digital sekolah.",
+          "periode": "Berkelanjutan",
+          "status": "Aktif",
+          "status_class": "status-running"
+        },
+        {
+          "judul": "Dokumentasi Kegiatan OSIS",
+          "deskripsi": "Mendokumentasikan setiap kegiatan OSIS dalam bentuk foto dan video untuk arsip dan publikasi.",
+          "periode": "Berkelanjutan",
+          "status": "Aktif",
+          "status_class": "status-running"
+        }
+      ]
+    },
+    {
+      "id": "kerohanian",
+      "nama": "Seksi Bidang Kerohanian",
+      "proker": [
+        {
+          "judul": "Memperingati Hari Besar Islam",
+          "deskripsi": "Mengadakan lomba atau acara saat peringatan hari besar Islam seperti Maulid Nabi dan Isra Mi'raj.",
+          "periode": "Q1",
+          "status": "Sedang Berjalan",
+          "status_class": "status-running"
+        },
+        {
+          "judul": "Kajian Rohani",
+          "deskripsi": "Kegiatan kajian yang membahas tentang akhlak atau hal yang relevan dengan Islam, khususnya untuk remaja.",
+          "periode": "Q2",
+          "status": "Tahap Perencanaan",
+          "status_class": ""
+        },
+        {
+          "judul": "Ibadah Jumat & Renungan Harian bagi Siswa Beragama Kristen",
+          "deskripsi": "Mengadakan ibadah bagi umat Kristen.",
+          "periode": "Q2",
+          "status": "Tahap Perencanaan",
+          "status_class": ""
+        },
+        {
+          "judul": "Retret untuk Agama Kristen",
+          "deskripsi": "Kegiatan di luar sekolah untuk meningkatkan keimanan.",
+          "periode": "Q2",
+          "status": "Tahap Perencanaan",
+          "status_class": ""
+        },
+        {
+          "judul": "Perayaan Hari Besar Umat Kristiani",
+          "deskripsi": "Mengadakan ibadah khusus untuk memperingati hari besar keagamaan.",
+          "periode": "Q2",
+          "status": "Tahap Perencanaan",
+          "status_class": ""
+        }
+      ]
+    },
+    {
+      "id": "kedisiplinan",
+      "nama": "Seksi Bidang Kedisiplinan",
+      "proker": [
+        {
+          "judul": "Patroli Tata Tertib & Budi Pekerti",
+          "deskripsi": "Memantau dan mendampingi pelaksanaan tata tertib sekolah serta menanamkan nilai budi pekerti melalui kegiatan harian.",
+          "periode": "Berkelanjutan",
+          "status": "Aktif",
+          "status_class": "status-running"
+        },
+        {
+          "judul": "Piket Gerbang dengan Sistem 3S (Senyum, Salam dan Sapa)",
+          "deskripsi": "Melakukan pembiasaan pagi dengan (salam, senyum dan sapa).",
+          "periode": "Berkelanjutan",
+          "status": "Aktif",
+          "status_class": "status-running"
+        },
+        {
+          "judul": "Pengecekan Ruang Kelas sebelum Upacara/Apel Dimulai",
+          "deskripsi": "Mengecek ruang kelas/toilet guna memperhatikan tidak adanya siswa yang tidak mengikuti upacara/apel.",
+          "periode": "Berkelanjutan",
+          "status": "Aktif",
+          "status_class": "status-running"
+        },
+        {
+          "judul": "Pengecekan Kebersihan Kelas Setiap Pulang Sekolah",
+          "deskripsi": "Menertibkan kebersihan tiap kelas SMKN 68 Jakarta dengan inspeksi terhadap setiap kelas.",
+          "periode": "Berkelanjutan",
+          "status": "Aktif",
+          "status_class": "status-running"
+        },
+        {
+          "judul": "SEKAR (Seminar Karakter Siswa)",
+          "deskripsi": "Sekbid Kedisiplinan – Kolaborasi dengan Guru, Kerohanian, BK dan Kesiswaan.",
+          "periode": "Berkelanjutan",
+          "status": "Aktif",
+          "status_class": "status-running"
+        },
+        {
+          "judul": "Kegiatan Kerja Bakti Sosial dan Lingkungan",
+          "deskripsi": "Membersihkan area di sekolah seperti lapangan, taman, koridor, dan lainnya karena kebersihan sebagian dari iman.",
+          "periode": "Berkelanjutan",
+          "status": "Aktif",
+          "status_class": "status-running"
+        }
+      ]
+    },
+    {
+      "id": "jasmani-kreativitas",
+      "nama": "Seksi Bidang Jasmani & Kreativitas",
+      "proker": [
+        {
+          "judul": "Lomba Kelas Kreativitas",
+          "deskripsi": "Melakukan kegiatan seperti menggambar, menulis cerita pendek, membuat poster, mengarang puisi, dan membuat kerajinan tangan.",
+          "periode": "Berkelanjutan",
+          "status": "Aktif",
+          "status_class": "status-running"
+        },
+        {
+          "judul": "Piket Gerbang dengan Sistem 3S",
+          "deskripsi": "Melakukan pembiasaan pagi dengan (salam, senyum dan sapa).",
+          "periode": "Berkelanjutan",
+          "status": "Aktif",
+          "status_class": "status-running"
+        },
+        {
+          "judul": "Pengecekan Ruang Kelas sebelum Upacara/Apel Dimulai",
+          "deskripsi": "Mengecek ruang kelas/toilet guna memperhatikan tidak adanya siswa yang tidak mengikuti upacara/apel.",
+          "periode": "Berkelanjutan",
+          "status": "Aktif",
+          "status_class": "status-running"
+        },
+        {
+          "judul": "Pengecekan Kebersihan Kelas Setiap Pulang Sekolah",
+          "deskripsi": "Menertibkan kebersihan tiap kelas SMKN 68 Jakarta dengan inspeksi terhadap setiap kelas.",
+          "periode": "Berkelanjutan",
+          "status": "Aktif",
+          "status_class": "status-running"
+        },
+        {
+          "judul": "SEKAR (Seminar Karakter Siswa)",
+          "deskripsi": "Sekbid Kedisiplinan – Kolaborasi dengan Guru, Kerohanian, BK dan Kesiswaan.",
+          "periode": "Berkelanjutan",
+          "status": "Aktif",
+          "status_class": "status-running"
+        },
+        {
+          "judul": "Kegiatan Kerja Bakti Sosial dan Lingkungan",
+          "deskripsi": "Membersihkan area di sekolah seperti lapangan, taman, koridor, dan lainnya karena kebersihan sebagian dari iman.",
+          "periode": "Berkelanjutan",
+          "status": "Aktif",
+          "status_class": "status-running"
+        }
+      ]
+    },
+    {
+      "id": "dana-usaha",
+      "nama": "Seksi Bidang Dana Usaha",
+      "proker": [
+        {
+          "judul": "Patroli Tata Tertib & Budi Pekerti",
+          "deskripsi": "Memantau dan mendampingi pelaksanaan tata tertib sekolah serta menanamkan nilai budi pekerti melalui kegiatan harian.",
+          "periode": "Berkelanjutan",
+          "status": "Aktif",
+          "status_class": "status-running"
+        },
+        {
+          "judul": "Piket Gerbang dengan Sistem 3S (Senyum, Salam dan Sapa)",
+          "deskripsi": "Melakukan pembiasaan pagi dengan (salam, senyum dan sapa).",
+          "periode": "Berkelanjutan",
+          "status": "Aktif",
+          "status_class": "status-running"
+        },
+        {
+          "judul": "Pengecekan Ruang Kelas sebelum Upacara/Apel Dimulai",
+          "deskripsi": "Mengecek ruang kelas/toilet guna memperhatikan tidak adanya siswa yang tidak mengikuti upacara/apel.",
+          "periode": "Berkelanjutan",
+          "status": "Aktif",
+          "status_class": "status-running"
+        },
+        {
+          "judul": "Pengecekan Kebersihan Kelas Setiap Pulang Sekolah",
+          "deskripsi": "Menertibkan kebersihan tiap kelas SMKN 68 Jakarta dengan inspeksi terhadap setiap kelas.",
+          "periode": "Berkelanjutan",
+          "status": "Aktif",
+          "status_class": "status-running"
+        },
+        {
+          "judul": "SEKAR (Seminar Karakter Siswa)",
+          "deskripsi": "Sekbid Kedisiplinan – Kolaborasi dengan Guru, Kerohanian, BK dan Kesiswaan.",
+          "periode": "Berkelanjutan",
+          "status": "Aktif",
+          "status_class": "status-running"
+        }
+      ]
+    }
+  ]

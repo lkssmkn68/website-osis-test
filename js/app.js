@@ -1,38 +1,31 @@
 /**
- * app.js — Main entry point for OSIS SMKN 68 Jakarta website.
- *
- * Each page imports only what it needs.
- * Shared functionality (nav, footer) is injected automatically by components.js.
+ * app.js
+ * Entry point — injects shared components and boots the correct
+ * page module based on the current URL.
  */
 
 import { injectComponents } from './components.js';
+import { initHomeSlider, initHomeNews } from './home.js';
 import { initArticleListPage, initArticlePage } from './articles.js';
 import { renderOsisTree } from './struktur.js';
-import { initHomeSlider } from './home.js';
+import { initProkerPage } from './proker.js';
 
-document.addEventListener('DOMContentLoaded', async () => {
+// 1. Inject nav + footer on every page
+injectComponents();
 
-    // 1. Always inject shared nav + footer
-    injectComponents();
+// 2. Boot the correct page module
+const page = window.location.pathname.split('/').pop() || 'index.html';
 
-    // 2. Page-specific logic based on filename
-    const page = window.location.pathname.split('/').pop() || 'index.html';
-
-    if (page === 'index.html' || page === '') {
-        initHomeSlider();
-    }
-
-    if (page === 'struktur.html') {
-        await renderOsisTree();
-    }
-
-    if (page === 'articles.html') {
-        await initArticleListPage();
-    }
-
-    // Single article pages live in /static/articles/[id].html
-    if (document.getElementById('article-render-target')) {
-        await initArticlePage();
-    }
-
-});
+if (page === 'index.html' || page === '') {
+    initHomeSlider();
+    initHomeNews();
+} else if (page === 'struktur.html') {
+    renderOsisTree();
+} else if (page === 'articles.html') {
+    initArticleListPage();
+} else if (page === 'proker.html') {
+    initProkerPage();
+} else {
+    // Static article pages — static/articles/[id].html
+    initArticlePage();
+}

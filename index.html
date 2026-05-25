@@ -36,40 +36,9 @@
 
     <section class="news-section">
         <h2 class="section-title">Berita Terkini</h2>
-        <div class="news-grid">
-            <article class="news-card">
-                <div class="news-image-wrapper">
-                    <img src="img/covers/news1.jpg" alt="Berita 1" class="news-image">
-                </div>
-                <div class="news-body">
-                    <span class="news-date">22 Mei 2026</span>
-                    <h3 class="news-title">Peluncuran Fitur Terbaru Website OSIS</h3>
-                    <p class="news-excerpt">Sistem artikel baru berbasis Markdown memudahkan penulisan konten tanpa keahlian coding.</p>
-                    <a href="static/articles/artikel-fitur-baru.html" class="news-link">Baca Selengkapnya →</a>
-                </div>
-            </article>
-            <article class="news-card">
-                <div class="news-image-wrapper">
-                    <img src="img/covers/news2.jpg" alt="Berita 2" class="news-image">
-                </div>
-                <div class="news-body">
-                    <span class="news-date">20 Mei 2026</span>
-                    <h3 class="news-title">Tips Belajar Vanilla JavaScript</h3>
-                    <p class="news-excerpt">Mengenal dasar DOM manipulation adalah langkah pertama menuju web developer handal.</p>
-                    <a href="static/articles/belajar-javascript.html" class="news-link">Baca Selengkapnya →</a>
-                </div>
-            </article>
-            <article class="news-card">
-                <div class="news-image-wrapper">
-                    <img src="img/covers/news3.jpg" alt="Berita 3" class="news-image">
-                </div>
-                <div class="news-body">
-                    <span class="news-date">15 Mei 2026</span>
-                    <h3 class="news-title">Workshop Desain Kreatif Bersama Sekbid</h3>
-                    <p class="news-excerpt">Pelatihan UI/UX design dan manajemen aset kreatif untuk anggota aktif OSIS.</p>
-                    <a href="static/articles.html" class="news-link">Baca Selengkapnya →</a>
-                </div>
-            </article>
+        <!-- Populated dynamically from articles-manifest.json by home.js -->
+        <div class="news-grid" id="home-news-grid">
+            <p style="color: var(--text-muted)">Memuat berita...</p>
         </div>
     </section>
 
