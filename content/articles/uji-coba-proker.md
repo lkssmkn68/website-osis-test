@@ -1,11 +1,12 @@
 ---
-title: UJI COBA PROKER
-category: Teknologi & Fitur
-author: Ikram Rahmani
+title: Judul Artikel
+category: Teknologi
+author: Nama Kamu
 date: 25 Mei 2026
-readtime: 4 menit
-cover: /img/covers/news1.jpg
-cover_caption: Pembaruan antarmuka untuk pengalaman pengguna yang lebih mulus dan responsif.
+date_iso: 2026-05-25
+excerpt: Kalimat singkat preview artikel.
+cover: https://link-gambar.jpg
+featured: True
 ---
 
 [UJI COBA]Selamat datang di platform digital kami yang telah diperbarui! Kami dengan bangga mengumumkan peluncuran serangkaian fitur interaktif baru yang dirancang khusus untuk meningkatkan kenyamanan akses informasi Anda.

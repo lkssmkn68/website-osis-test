@@ -34,17 +34,17 @@
   {
     "id": "uji-coba-proker",
     "file": "content/articles/uji-coba-proker.md",
-    "title": "UJI COBA PROKER",
-    "author": "Ikram Rahmani",
+    "title": "Judul Artikel",
+    "author": "Nama Kamu",
     "date": "2026-05-25",
     "date_display": "25 Mei 2026",
-    "readtime": "4 menit",
-    "cover": "/img/covers/news1.jpg",
-    "cover_caption": "Pembaruan antarmuka untuk pengalaman pengguna yang lebih mulus dan responsif.",
-    "category": "teknologi & fitur",
-    "category_display": "Teknologi & Fitur",
-    "excerpt": "[UJI COBA]Selamat datang di platform digital kami yang telah diperbarui! Kami dengan bangga mengumumkan peluncuran seran...",
-    "featured": false,
+    "readtime": "",
+    "cover": "https://link-gambar.jpg",
+    "cover_caption": "",
+    "category": "teknologi",
+    "category_display": "Teknologi",
+    "excerpt": "Kalimat singkat preview artikel.",
+    "featured": true,
     "body": "[UJI COBA]Selamat datang di platform digital kami yang telah diperbarui! Kami dengan bangga mengumumkan peluncuran serangkaian fitur interaktif baru yang dirancang khusus untuk meningkatkan kenyamanan akses informasi Anda.\n\nBanyak yang langsung lompat ke React atau Vue tanpa memahami dasar-dasarnya. Padahal, memahami Vanilla JS adalah fondasi terkuat untuk menjadi web developer yang handal.\n\n## Mengapa Vanilla JS?\n\nVanilla JS adalah JavaScript murni — tanpa library, tanpa framework. Belajar dari dasar membuat kamu benar-benar paham bagaimana browser bekerja, bukan cuma hafal sintaks framework.\n\n## Langkah Belajar yang Tepat\n\n### 1. Kuasai DOM Manipulation\n\nDOM (Document Object Model) adalah cara JavaScript berkomunikasi dengan HTML. Mulai dari sini:\n\n- `document.getElementById()` — ambil elemen berdasarkan ID\n- `element.addEventListener()` — dengarkan event seperti klik dan ketikan\n- `element.innerHTML` — ubah konten HTML secara dinamis\n\n### 2. Pelajari Fetch API\n\nSetelah DOM, pelajari cara mengambil data dari internet menggunakan `fetch()`. Ini adalah skill paling penting di web modern.\n\n### 3. Latihan Membuat Project Kecil\n\nTeori tanpa praktik tidak akan kemana-mana. Coba buat:\n\n- To-do list sederhana\n- Kalkulator\n- Filter gambar/artikel seperti di website ini!\n\n> \"Seorang programmer hebat tidak lahir dari membaca buku, tapi dari menulis kode setiap hari.\"\n\nSemangat terus belajarnya! OSIS SMKN 68 selalu mendukung perkembangan digital literacy anggotanya."
   }
 ]
