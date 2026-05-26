@@ -14,5 +14,21 @@
     "excerpt": "Ini adalah cara baru kita untuk memberikan informasi dan transparansi serta membentuk portofolio yang baik untuk organisasi",
     "featured": true,
     "body": "Selamat datang di platform digital kami yang baru saja kami buat! Kami dengan bangga mengumumkan peluncuran serangkaian fitur interaktif baru yang dirancang khusus untuk meningkatkan kenyamanan akses informasi Anda.\n\n## Untuk apa adanya sebuah website?\n\nKami mengharapkan dengan adanya website ini, organisasi OSIS dapat membentuk portofolio yang baik untuk kedepannya dan membentuk habit literasi digital yang baik. Kami juga ingin meningkatkan daya literasi siswa SMKN 68 Jakarta, dengan adanya artikel digital seperti ini kami timbulnya minat baca informasi untuk murid SMKN 68 Jakarta\n\n## Lalu, Mengapa harus digital?\n![Manusia Gua](https://github.com/lkssmkn68/website-osis-test/blob/main/img/assets/img1.jpeg?raw=true)\nDi zaman serba canggih ini tidak memungkinkan untuk kita jika harus selalu menjadi manusia gua dan tidak mau update perkembangan zaman. Dengan kita mendigitalisasikan sarana informasi kita, secara tidak langsung kita telah berpartisipasi akan perkembangan zaman yang sekarang sangat cepat. Ini adalah salah satu tindakan kita untuk bisa melatih kemampuan siswa siswa untuk bisa terus mengikuti perkembangan zaman.\n\n> Tetap lah memiliki rasa penasaran karena kita adalah manusia!"
+  },
+  {
+    "id": "tutorial-tidur",
+    "file": "content/articles/tutorial-tidur.md",
+    "title": "Tutorial Tidur",
+    "author": "Samuel Tamba",
+    "date": "2026-05-25",
+    "date_display": "25 Mei 2026",
+    "readtime": "1 menit",
+    "cover": "https://img.pikbest.com/png-images/20241010/a-picture-of-a-boy-sleeping-in-bed-cartoon-art_10941606.png!bw700",
+    "cover_caption": "",
+    "category": "edukasi",
+    "category_display": "Edukasi",
+    "excerpt": "Ini adalah cara tidur",
+    "featured": false,
+    "body": "## Mengapa VanillaJS?\nVanilla JS adalah JavaScript murni — tanpa library, tanpa framework. Belajar dari dasar membuat kamu benar-benar paham bagaimana browser bekerja, bukan cuma hafal sintaks framework."
   }
 ]
