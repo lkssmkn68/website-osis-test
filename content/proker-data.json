@@ -21,8 +21,8 @@
             "judul": "Kunjungan antar Sekolah OSIS",
             "deskripsi": "Melakukan kunjugan ke sekolah lain dan berkomunikasi dengan anggota OSIS dari sekolah yang dikunjungi untuk berbagi aspirasi satu golongan OSIS.",
             "periode": "Berkelanjutan",
-            "status": "Aktif",
-            "status_class": "status-running"
+            "status": "Tahap Perencanaan",
+            "status_class": ""
           }
         ]
     },
@@ -52,15 +52,15 @@
           "status_class": "status-running"
         },
         {
-          "judul": "Pembuatan Sarana Sumber Informasi & Layanan Aduan",
-          "deskripsi": "Membuat sumber informasi berupa saluran whatsapp serta terdapat layanan aduan siswa dalam bentuk nomor aduan osis.",
-          "periode": "Berkelanjutan",
-          "status": "Tahap Perencanaan",
-          "status_class": ""
-        },
-        {
           "judul": "Penjadwalan Konten Sosial Media",
           "deskripsi": "Membuat jadwal untuk konten yang akan dibuat berdasarkan yang trending.",
+          "periode": "Berkelanjutan",
+          "status": "Aktif",
+          "status_class": "status-running"
+        },
+        {
+          "judul": "Pembuatan Sarana Sumber Informasi & Layanan Aduan",
+          "deskripsi": "Membuat sumber informasi berupa saluran whatsapp serta terdapat layanan aduan siswa dalam bentuk nomor aduan osis.",
           "periode": "Berkelanjutan",
           "status": "Tahap Perencanaan",
           "status_class": ""
@@ -74,30 +74,37 @@
         {
           "judul": "Challange Muslim",
           "deskripsi": "Mengadakan event kegiatan lomba setiap minggu untuk siswa 68 mendekatkan diri kepada Allah",
-          "periode": "Q1",
-          "status": "Sedang Berjalan",
+          "periode": "Berkelanjutan",
+          "status": "Aktif",
           "status_class": "status-running"
         },
         {
           "judul": "Memperingati Hari Besar Islam",
           "deskripsi": "Mengadakan lomba atau acara saat peringatan hari besar Islam seperti Maulid Nabi dan Isra Mi'raj.",
-          "periode": "Q1",
-          "status": "Sedang Berjalan",
+          "periode": "Q1X",
+          "status": "Aktif",
           "status_class": "status-running"
         },
         {
           "judul": "Kajian Rohani",
           "deskripsi": "Kegiatan kajian yang membahas tentang akhlak atau hal yang relevan dengan Islam, khususnya untuk remaja.",
-          "periode": "Q2",
-          "status": "Tahap Perencanaan",
-          "status_class": ""
+          "periode": "Berkelanjutan",
+          "status": "Aktif",
+          "status_class": "status-running"
         },
         {
           "judul": "Ibadah Jumat & Renungan Harian bagi Siswa Beragama Kristen",
           "deskripsi": "Mengadakan ibadah bagi umat Kristen.",
-          "periode": "Q2",
-          "status": "Tahap Perencanaan",
-          "status_class": ""
+          "periode": "Berkelanjutan",
+          "status": "Aktif",
+          "status_class": "status-running"
+        },
+        {
+          "judul": "Perayaan Hari Besar Umat Kristiani",
+          "deskripsi": "Mengadakan ibadah khusus untuk memperingati hari besar keagamaan.",
+          "periode": "Q3",
+          "status": "Aktif",
+          "status_class": "status-running"
         },
         {
           "judul": "Retret untuk Agama Kristen",
@@ -106,13 +113,6 @@
           "status": "Tahap Perencanaan",
           "status_class": ""
         },
-        {
-          "judul": "Perayaan Hari Besar Umat Kristiani",
-          "deskripsi": "Mengadakan ibadah khusus untuk memperingati hari besar keagamaan.",
-          "periode": "Q2",
-          "status": "Tahap Perencanaan",
-          "status_class": ""
-        }
       ]
     },
     {
@@ -123,13 +123,20 @@
           "judul": "SEKAR (Seminar Karakter Siswa)",
           "deskripsi": "Sekbid kedisiplinan  Kolaborasi dengan Guru, kerohanian, BK dan kesiswaan.",
           "periode": "Unggulan",
+          "status": "Tahap Perencanaan",
+          "status_class": ""
+        },
+        {
+          "judul": "Kegiatan Kerja Bakti Sosial dan Lingkungan",
+          "deskripsi": "Membersihkan area di sekolah seperti lapangan, taman, koridor, dan lainnya karena kebersihan sebagian dari iman.",
+          "periode": "Unggulan",
           "status": "Aktif",
           "status_class": "status-running"
         },
         {
           "judul": "Mempersiapkan perlengkapan upacara/apel dll.",
           "deskripsi": "Mempersiapkan keperluan-keperluan untuk pembiasaan pagi.",
-          "periode": "Unggulan",
+          "periode": "Berkelanjutan",
           "status": "Aktif",
           "status_class": "status-running"
         },
@@ -153,13 +160,6 @@
           "periode": "Berkelanjutan",
           "status": "Aktif",
           "status_class": "status-running"
-        },
-        {
-          "judul": "Kegiatan Kerja Bakti Sosial dan Lingkungan",
-          "deskripsi": "Membersihkan area di sekolah seperti lapangan, taman, koridor, dan lainnya karena kebersihan sebagian dari iman.",
-          "periode": "Berkelanjutan",
-          "status": "Aktif",
-          "status_class": "status-running"
         }
       ]
     },
@@ -167,6 +167,13 @@
       "id": "jasmani-kreativitas",
       "nama": "Seksi Bidang Jasmani & Kreativitas",
       "proker": [
+        {
+          "judul": "EKI RUN",
+          "deskripsi": "Kegiatan Siswa/Siswi untuk mengikuti lomba lari estavet",
+          "periode": "Unggulan",
+          "status": "Aktif",
+          "status_class": "status-running"
+        },
         {
           "judul": "Mading Bulanan",
           "deskripsi": "Mengganti mading tiap bulannya dengan hasil kreativitas siswa atau tentang informasi' lowongan kerja yang diberikan bkk",
@@ -177,13 +184,6 @@
         {
           "judul": "68 CHALLENGE",
           "deskripsi": "Kegiatan Siswa/Siswi untuk membugarkan tubuh seperti push up, sit up, dll",
-          "periode": "Berkelanjutan",
-          "status": "Aktif",
-          "status_class": "status-running"
-        },
-        {
-          "judul": "EKI RUN",
-          "deskripsi": "Kegiatan Siswa/Siswi untuk mengikuti lomba lari estavet",
           "periode": "Berkelanjutan",
           "status": "Aktif",
           "status_class": "status-running"
