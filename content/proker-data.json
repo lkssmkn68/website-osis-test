@@ -31,9 +31,9 @@
       "nama": "Seksi Bidang Humas IT",
       "proker": [
         {
-          "judul": "Pembuatan & Pengelolaan Media Sosial OSIS",
-          "deskripsi": "Mengelola akun Instagram, TikTok, dan YouTube OSIS SMKN 68 Jakarta agar tetap aktif dan informatif.",
-          "periode": "Berkelanjutan",
+          "judul": "Jurnalistik Kegiatan OSIS",
+          "deskripsi": "Mebuat kreasi berupa  artikel yang harus dibuat per sekbid dengan judul dan tema sesuai tugas masing masing serta dapat di ekspan ke lingkup siswa.",
+          "periode": "Unggulan",
           "status": "Aktif",
           "status_class": "status-running"
         },
@@ -45,11 +45,25 @@
           "status_class": "status-running"
         },
         {
-          "judul": "Dokumentasi Kegiatan OSIS",
-          "deskripsi": "Mendokumentasikan setiap kegiatan OSIS dalam bentuk foto dan video untuk arsip dan publikasi.",
+          "judul": "Merangkum Kegiatan OSIS",
+          "deskripsi": "Meringkas event atau acara yang dilaksanakan osis.",
           "periode": "Berkelanjutan",
           "status": "Aktif",
           "status_class": "status-running"
+        },
+        {
+          "judul": "Pembuatan Sarana Sumber Informasi & Layanan Aduan",
+          "deskripsi": "Membuat sumber informasi berupa saluran whatsapp serta terdapat layanan aduan siswa dalam bentuk nomor aduan osis.",
+          "periode": "Berkelanjutan",
+          "status": "Tahap Perencanaan",
+          "status_class": ""
+        },
+        {
+          "judul": "Penjadwalan Konten Sosial Media",
+          "deskripsi": "Membuat jadwal untuk konten yang akan dibuat berdasarkan yang trending.",
+          "periode": "Berkelanjutan",
+          "status": "Tahap Perencanaan",
+          "status_class": ""
         }
       ]
     },
@@ -57,6 +71,13 @@
       "id": "kerohanian",
       "nama": "Seksi Bidang Kerohanian",
       "proker": [
+        {
+          "judul": "Challange Muslim",
+          "deskripsi": "Mengadakan event kegiatan lomba setiap minggu untuk siswa 68 mendekatkan diri kepada Allah",
+          "periode": "Q1",
+          "status": "Sedang Berjalan",
+          "status_class": "status-running"
+        },
         {
           "judul": "Memperingati Hari Besar Islam",
           "deskripsi": "Mengadakan lomba atau acara saat peringatan hari besar Islam seperti Maulid Nabi dan Isra Mi'raj.",
@@ -99,9 +120,16 @@
       "nama": "Seksi Bidang Kedisiplinan",
       "proker": [
         {
-          "judul": "Patroli Tata Tertib & Budi Pekerti",
-          "deskripsi": "Memantau dan mendampingi pelaksanaan tata tertib sekolah serta menanamkan nilai budi pekerti melalui kegiatan harian.",
-          "periode": "Berkelanjutan",
+          "judul": "SEKAR (Seminar Karakter Siswa)",
+          "deskripsi": "Sekbid kedisiplinan  Kolaborasi dengan Guru, kerohanian, BK dan kesiswaan.",
+          "periode": "Unggulan",
+          "status": "Aktif",
+          "status_class": "status-running"
+        },
+        {
+          "judul": "Mempersiapkan perlengkapan upacara/apel dll.",
+          "deskripsi": "Mempersiapkan keperluan-keperluan untuk pembiasaan pagi.",
+          "periode": "Unggulan",
           "status": "Aktif",
           "status_class": "status-running"
         },
@@ -122,13 +150,6 @@
         {
           "judul": "Pengecekan Kebersihan Kelas Setiap Pulang Sekolah",
           "deskripsi": "Menertibkan kebersihan tiap kelas SMKN 68 Jakarta dengan inspeksi terhadap setiap kelas.",
-          "periode": "Berkelanjutan",
-          "status": "Aktif",
-          "status_class": "status-running"
-        },
-        {
-          "judul": "SEKAR (Seminar Karakter Siswa)",
-          "deskripsi": "Sekbid Kedisiplinan – Kolaborasi dengan Guru, Kerohanian, BK dan Kesiswaan.",
           "periode": "Berkelanjutan",
           "status": "Aktif",
           "status_class": "status-running"
@@ -147,46 +168,39 @@
       "nama": "Seksi Bidang Jasmani & Kreativitas",
       "proker": [
         {
+          "judul": "Mading Bulanan",
+          "deskripsi": "Mengganti mading tiap bulannya dengan hasil kreativitas siswa atau tentang informasi' lowongan kerja yang diberikan bkk",
+          "periode": "Berkelanjutan",
+          "status": "Aktif",
+          "status_class": "status-running"
+        },
+        {
+          "judul": "68 CHALLENGE",
+          "deskripsi": "Kegiatan Siswa/Siswi untuk membugarkan tubuh seperti push up, sit up, dll",
+          "periode": "Berkelanjutan",
+          "status": "Aktif",
+          "status_class": "status-running"
+        },
+        {
+          "judul": "EKI RUN",
+          "deskripsi": "Kegiatan Siswa/Siswi untuk mengikuti lomba lari estavet",
+          "periode": "Berkelanjutan",
+          "status": "Aktif",
+          "status_class": "status-running"
+        },
+        {
           "judul": "Lomba Kelas Kreativitas",
           "deskripsi": "Melakukan kegiatan seperti menggambar, menulis cerita pendek, membuat poster, mengarang puisi, dan membuat kerajinan tangan.",
           "periode": "Berkelanjutan",
-          "status": "Aktif",
-          "status_class": "status-running"
+          "status": "Tahap Perencanaan",
+          "status_class": ""
         },
         {
-          "judul": "Piket Gerbang dengan Sistem 3S",
-          "deskripsi": "Melakukan pembiasaan pagi dengan (salam, senyum dan sapa).",
+          "judul": "Plastik Reborn",
+          "deskripsi": "Mengubah sampah plastik menjadi karya seni yang indah dan bernilai. Mengajak siswa-siswa untuk mengumpulkan sampah plastik, memilah-lpilahnya, dan kemudian membuat karya seni dari bahan tersebut.",
           "periode": "Berkelanjutan",
-          "status": "Aktif",
-          "status_class": "status-running"
-        },
-        {
-          "judul": "Pengecekan Ruang Kelas sebelum Upacara/Apel Dimulai",
-          "deskripsi": "Mengecek ruang kelas/toilet guna memperhatikan tidak adanya siswa yang tidak mengikuti upacara/apel.",
-          "periode": "Berkelanjutan",
-          "status": "Aktif",
-          "status_class": "status-running"
-        },
-        {
-          "judul": "Pengecekan Kebersihan Kelas Setiap Pulang Sekolah",
-          "deskripsi": "Menertibkan kebersihan tiap kelas SMKN 68 Jakarta dengan inspeksi terhadap setiap kelas.",
-          "periode": "Berkelanjutan",
-          "status": "Aktif",
-          "status_class": "status-running"
-        },
-        {
-          "judul": "SEKAR (Seminar Karakter Siswa)",
-          "deskripsi": "Sekbid Kedisiplinan – Kolaborasi dengan Guru, Kerohanian, BK dan Kesiswaan.",
-          "periode": "Berkelanjutan",
-          "status": "Aktif",
-          "status_class": "status-running"
-        },
-        {
-          "judul": "Kegiatan Kerja Bakti Sosial dan Lingkungan",
-          "deskripsi": "Membersihkan area di sekolah seperti lapangan, taman, koridor, dan lainnya karena kebersihan sebagian dari iman.",
-          "periode": "Berkelanjutan",
-          "status": "Aktif",
-          "status_class": "status-running"
+          "status": "Tahap Perencanaan",
+          "status_class": ""
         }
       ]
     },
@@ -195,36 +209,29 @@
       "nama": "Seksi Bidang Dana Usaha",
       "proker": [
         {
-          "judul": "Patroli Tata Tertib & Budi Pekerti",
-          "deskripsi": "Memantau dan mendampingi pelaksanaan tata tertib sekolah serta menanamkan nilai budi pekerti melalui kegiatan harian.",
+          "judul": "68 Street Sale",
+          "deskripsi": "Berjualan di Car Free Day dengan produk sederhana dan modal minim",
+          "periode": "Unggulan",
+          "status": "Aktif",
+          "status_class": "status-running"
+        },
+        {
+          "judul": "OSIS Refreshment Duty",
+          "deskripsi": "Menjaga dan membantu berjualan di gerai minuman yang sudah ada di kantin sekolah, dengan sistem bagi hasil atau komisi tetap",
           "periode": "Berkelanjutan",
           "status": "Aktif",
           "status_class": "status-running"
         },
         {
-          "judul": "Piket Gerbang dengan Sistem 3S (Senyum, Salam dan Sapa)",
-          "deskripsi": "Melakukan pembiasaan pagi dengan (salam, senyum dan sapa).",
-          "periode": "Berkelanjutan",
+          "judul": "68 Partnership Program",
+          "deskripsi": "Menjalin kerja sama dengan brand lokal (contoh: toko alat tulis, kedai kopi, percetakan, atau clothing brand) untuk menyediakan sponsor berupa dana, produk, atau kebutuhan acara OSIS",
+          "periode": "Q1",
           "status": "Aktif",
           "status_class": "status-running"
         },
         {
-          "judul": "Pengecekan Ruang Kelas sebelum Upacara/Apel Dimulai",
-          "deskripsi": "Mengecek ruang kelas/toilet guna memperhatikan tidak adanya siswa yang tidak mengikuti upacara/apel.",
-          "periode": "Berkelanjutan",
-          "status": "Aktif",
-          "status_class": "status-running"
-        },
-        {
-          "judul": "Pengecekan Kebersihan Kelas Setiap Pulang Sekolah",
-          "deskripsi": "Menertibkan kebersihan tiap kelas SMKN 68 Jakarta dengan inspeksi terhadap setiap kelas.",
-          "periode": "Berkelanjutan",
-          "status": "Aktif",
-          "status_class": "status-running"
-        },
-        {
-          "judul": "SEKAR (Seminar Karakter Siswa)",
-          "deskripsi": "Sekbid Kedisiplinan – Kolaborasi dengan Guru, Kerohanian, BK dan Kesiswaan.",
+          "judul": "68 Media Partner",
+          "deskripsi": "Mengajak usaha kecil sekitar sekolah (toko, kuliner, percetakan, kedai kopi) untuk menjadi media partner. Sebagai imbalan promosi lewat akun OSIS, mereka memberi donasi atau sponsor kecil.",
           "periode": "Berkelanjutan",
           "status": "Aktif",
           "status_class": "status-running"
